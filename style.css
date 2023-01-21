@@ -31,3 +31,44 @@ a {
     text-decoration: none;
     font-size: 18px;
 }
+
+.hero {
+    background-color: #1f2937;
+    margin: 0px;
+    padding: 125px 75px;
+    display: flex;
+    gap: 100px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-right{
+    align-self: center;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 35px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+}
